@@ -1,8 +1,26 @@
 @charset "UTF-8";
 /*SASS tutorial */
+/*variables*/
+$blue:#00F;
+$margin: 5%;
 
-#background{
-	color:#CCC;
+
+/*universal*/
+h1{
+	color:$blue;
+	}
+h2{
+	color:$blue;
+	margin: 20px $margin + 5%;
+	}
+p{
+	margin:20px $margin;
+	}
+header{
+	margin: 20px $margin;
+	}
+#container{
+	color:$blue;
 	}
 
 

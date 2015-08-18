@@ -1,5 +1,20 @@
 /*SASS tutorial */
-#background {
-  color: #CCC; }
+/*variables*/
+/*universal*/
+h1 {
+  color: #00F; }
+
+h2 {
+  color: #00F;
+  margin: 20px 10%; }
+
+p {
+  margin: 20px 5%; }
+
+header {
+  margin: 20px 5%; }
+
+#container {
+  color: #00F; }
 
 /*# sourceMappingURL=style.css.map */
