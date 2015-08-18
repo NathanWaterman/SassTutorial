@@ -1,26 +1,70 @@
 @charset "UTF-8";
 /*SASS tutorial */
 /*variables*/
-$blue:#00F;
+$green:#188A59;
 $margin: 5%;
+$top-bg-gradient: #E8D0A9;
+$bottom-bg-gradient: $top-bg-gradient + 100;
+$par1-anchor-color: #F00;
+$par1-anchor-size: 18px; 
+$par2-anchor-color: #00F;
+$par2-anchor-size: 18px; 
+$par3-anchor-color: #CCF;
+$par3-anchor-size: 18px; 
 
 
 /*universal*/
 h1{
-	color:$blue;
+	color:$green;
 	}
 h2{
-	color:$blue;
+	color:$green;
 	margin: 20px $margin + 5%;
 	}
 p{
 	margin:20px $margin;
 	}
+body{
+	background:#262626;
+	}
 header{
 	margin: 20px $margin;
+	
+	h2{
+	color:#CCC;
+	margin: 20px $margin + 5%;
+	}
+}
+	
+	
+	
+	
+	
+.bg-gradient{
+	padding:1%;
+	background-color:$top-bg-gradient;
+	background-image: -webkit-gradient(linear,left top, left bottom, from($top-bg-gradient) to ($bottom-bg-gradient));
+	background-image: -webkit-linear-gradient(top, $top-bg-gradient, $bottom-bg-gradient);
+	background-image: -moz-linear-gradient(top, $top-bg-gradient, $bottom-bg-gradient);
+	background-image: -ms-linear-gradient(top, $top-bg-gradient, $bottom-bg-gradient);
+	background-image: -o-linear-gradient(top, $top-bg-gradient, $bottom-bg-gradient);
 	}
 #container{
-	color:$blue;
+	color:$green;
+	
+	.par1 a{
+		color:$par1-anchor-color;
+		font-size: $par1-anchor-size;
+		}
+	.par2 a{
+		color:$par2-anchor-color;
+		font-size: $par2-anchor-size;
+		}
+	.par3 a{
+		color:$par3-anchor-color;
+		font-size: $par3-anchor-size;
+		}
+	
 	}
 
 

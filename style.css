@@ -2,19 +2,43 @@
 /*variables*/
 /*universal*/
 h1 {
-  color: #00F; }
+  color: #188A59; }
 
 h2 {
-  color: #00F;
+  color: #188A59;
   margin: 20px 10%; }
 
 p {
   margin: 20px 5%; }
 
+body {
+  background: #262626; }
+
 header {
   margin: 20px 5%; }
+  header h2 {
+    color: #CCC;
+    margin: 20px 10%; }
+
+.bg-gradient {
+  padding: 1%;
+  background-color: #E8D0A9;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#E8D0A9) to white);
+  background-image: -webkit-linear-gradient(top, #E8D0A9, white);
+  background-image: -moz-linear-gradient(top, #E8D0A9, white);
+  background-image: -ms-linear-gradient(top, #E8D0A9, white);
+  background-image: -o-linear-gradient(top, #E8D0A9, white); }
 
 #container {
-  color: #00F; }
+  color: #188A59; }
+  #container .par1 a {
+    color: #F00;
+    font-size: 18px; }
+  #container .par2 a {
+    color: #00F;
+    font-size: 18px; }
+  #container .par3 a {
+    color: #CCF;
+    font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */
